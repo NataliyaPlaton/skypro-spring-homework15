@@ -1,0 +1,11 @@
+GET http://localhost:8080/employees/add?firstName=Ivan&lastName=Ivanov
+###
+GET http://localhost:8080/employees/add?firstName=Ivan&lastName=Petrov
+###
+GET http://localhost:8080/employees/add?firstName=Ivan&lastName=Sidorov
+###
+GET http://localhost:8080/employees/find?firstName=Ivan&lastName=Sidorov
+###
+GET http://localhost:8080/employees
+###
+GET http://localhost:8080/employees/remove?firstName=Ivan&lastName=Sidorov
